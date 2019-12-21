@@ -11,4 +11,5 @@
 
 #Board Design questions:
 - The LCD instructions say not to connect 5V directly to the backlight terminal.  The part we have probably has a series resistor to account for that, but I read that the backlight needs 3.2V so I wonder if there is a way to power it with the 3.3V pin?  Just a thought if that could help us move some of the current off of the 5V pin.  Stephanie measured the LCD currents and sent me this response: "Measuring the backlight, it was about 19 mA and .6 mA (but that one is with the 1k resistor so...). In any case, I don't know why it is so low, but that is what the multimeter says."  If it really is that low that will help with power consumption as well.
+  - I looked into this and I can't find anywhere what resistor is used to limit the voltage to the LCD backlight.
 - Is there a better option for RGB LEDs that uses less current?
