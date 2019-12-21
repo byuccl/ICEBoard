@@ -1,0 +1,32 @@
+Added Component: Designator=D5(NeoPixel)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D6(NeoPixel)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D7(NeoPixel)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D8(NeoPixel)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=D5-1
+Added Pin To Net: NetName=NetD1_3 Pin=D5-3
+Added Pin To Net: NetName=GND Pin=D6-1
+Added Pin To Net: NetName=NetD1_3 Pin=D6-3
+Added Pin To Net: NetName=GND Pin=D7-1
+Added Pin To Net: NetName=NetD1_3 Pin=D7-3
+Added Pin To Net: NetName=GND Pin=D8-1
+Added Pin To Net: NetName=NetD1_3 Pin=D8-3
+Added Pin To Net: NetName=NetD4_4 Pin=D4-4
+Added Pin To Net: NetName=NetD4_4 Pin=D5-2
+Added Net: Name=NetD4_4
+Added Pin To Net: NetName=NetD5_4 Pin=D5-4
+Added Pin To Net: NetName=NetD5_4 Pin=D6-2
+Added Net: Name=NetD5_4
+Added Pin To Net: NetName=NetD6_4 Pin=D6-4
+Added Pin To Net: NetName=NetD6_4 Pin=D7-2
+Added Net: Name=NetD6_4
+Added Pin To Net: NetName=NetD7_4 Pin=D7-4
+Added Pin To Net: NetName=NetD7_4 Pin=D8-2
+Added Net: Name=NetD7_4
+Added Member To Class: ClassName=KidsOutreach Member=Component D5 NeoPixel
+Added Member To Class: ClassName=KidsOutreach Member=Component D6 NeoPixel
+Added Member To Class: ClassName=KidsOutreach Member=Component D7 NeoPixel
+Added Member To Class: ClassName=KidsOutreach Member=Component D8 NeoPixel

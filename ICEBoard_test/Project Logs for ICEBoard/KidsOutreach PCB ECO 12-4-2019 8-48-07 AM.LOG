@@ -1,0 +1,5 @@
+Added Component: Designator=H1(BH9VPC)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+9 Pin=H1-1
+Added Pin To Net: NetName=GND Pin=H1-2
+Added Member To Class: ClassName=KidsOutreach Member=Component H1 BH9VPC

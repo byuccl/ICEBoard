@@ -1,0 +1,5 @@
+Added Component: Designator=IR1(TSOP17)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=IR1-1
+Added Pin To Net: NetName=NetIR1_3 Pin=IR1-3
+Added Member To Class: ClassName=KidsOutreach Member=Component IR1 TSOP17

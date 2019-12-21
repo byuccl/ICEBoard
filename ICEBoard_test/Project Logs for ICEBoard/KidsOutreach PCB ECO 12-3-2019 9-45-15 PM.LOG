@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=NetD1_2 Pin=U1-9
+Added Component: Designator=B1(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=B2(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=B3(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=B4(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=B5(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D1(NeoPixel)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D2(NeoPixel)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S1(JS202011SCQN)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S2(JS202011SCQN)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S3(JS202011SCQN)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S4(JS202011SCQN)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_4 Pin=D1-4
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=NetD1_4 Pin=D2-2
+Added Pin To Net: NetName=NetD1_2 Pin=U1-11
+Change Net Name : Old Net Name=+12 New Net Name=+9
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=U1-12
+Added Net: Name=NetB1_2
+Added Pin To Net: NetName=NetB2_2 Pin=B2-2
+Added Pin To Net: NetName=NetB2_2 Pin=U1-13
+Added Net: Name=NetB2_2
+Added Pin To Net: NetName=NetB3_2 Pin=B3-2
+Added Pin To Net: NetName=NetB3_2 Pin=U1-14
+Added Net: Name=NetB3_2
+Added Pin To Net: NetName=NetB4_2 Pin=B4-2
+Added Pin To Net: NetName=NetB4_2 Pin=U1-15
+Added Net: Name=NetB4_2
+Added Pin To Net: NetName=NetB5_2 Pin=B5-2
+Added Pin To Net: NetName=NetB5_2 Pin=U1-16
+Added Net: Name=NetB5_2
+Added Pin To Net: NetName=NetD1_3 Pin=D1-3
+Added Pin To Net: NetName=NetD1_3 Pin=D2-3
+Added Pin To Net: NetName=NetD1_3 Pin=U1-27
+Added Net: Name=NetD1_3
+Added Pin To Net: NetName=NetD2_4 Pin=D2-4
+Added Net: Name=NetD2_4
+Added Net: Name=NetD3_4
+Added Pin To Net: NetName=NetS1_2 Pin=S1-2
+Added Pin To Net: NetName=NetS1_2 Pin=U1-7
+Added Net: Name=NetS1_2
+Added Pin To Net: NetName=NetS2_2 Pin=S2-2
+Added Pin To Net: NetName=NetS2_2 Pin=U1-8
+Added Net: Name=NetS2_2
+Added Pin To Net: NetName=NetS3_2 Pin=S3-2
+Added Pin To Net: NetName=NetS3_2 Pin=U1-9
+Added Net: Name=NetS3_2
+Added Pin To Net: NetName=NetS4_2 Pin=S4-2
+Added Pin To Net: NetName=NetS4_2 Pin=U1-10
+Added Net: Name=NetS4_2
+Added Pin To Net: NetName=NetU1_19 Pin=U1-19
+Added Pin To Net: NetName=NetU1_19 Pin=U2-14
+Added Net: Name=NetU1_19
+Added Pin To Net: NetName=NetU1_20 Pin=U1-20
+Added Pin To Net: NetName=NetU1_20 Pin=U2-13
+Added Net: Name=NetU1_20
+Added Pin To Net: NetName=NetU1_21 Pin=U1-21
+Added Pin To Net: NetName=NetU1_21 Pin=U2-12
+Added Net: Name=NetU1_21
+Added Pin To Net: NetName=NetU1_22 Pin=U1-22
+Added Pin To Net: NetName=NetU1_22 Pin=U2-11
+Added Net: Name=NetU1_22
+Added Pin To Net: NetName=NetU1_23 Pin=U1-23
+Added Pin To Net: NetName=NetU1_23 Pin=U2-6
+Added Net: Name=NetU1_23
+Added Pin To Net: NetName=NetU1_24 Pin=U1-24
+Added Pin To Net: NetName=NetU1_24 Pin=U2-4
+Added Net: Name=NetU1_24
+Added Member To Class: ClassName=KidsOutreach Member=Component B1 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component B2 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component B3 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component B4 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component B5 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component D1 NeoPixel
+Added Member To Class: ClassName=KidsOutreach Member=Component D2 NeoPixel
+Added Member To Class: ClassName=KidsOutreach Member=Component S1 JS202011SCQN
+Added Member To Class: ClassName=KidsOutreach Member=Component S2 JS202011SCQN
+Added Member To Class: ClassName=KidsOutreach Member=Component S3 JS202011SCQN
+Added Member To Class: ClassName=KidsOutreach Member=Component S4 JS202011SCQN
+Added Room: Name=KidsOutreach

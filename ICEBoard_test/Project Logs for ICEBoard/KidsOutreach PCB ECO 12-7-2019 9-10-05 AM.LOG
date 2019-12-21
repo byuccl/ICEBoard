@@ -1,0 +1,82 @@
+Added Component: Designator=C1(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C4(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C5(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C6(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C7(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C8(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C9(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C10(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C11(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C12(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C13(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C14(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C15(Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C16(Capacitor)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC?_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC?_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=NetC?_1 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=NetC?_1 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=NetC?_1 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=NetC?_1 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=NetC?_1 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=NetC?_1 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=NetC?_1 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=NetC?_1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=NetC?_1 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=NetC?_1 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=NetC?_1 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=NetC?_1 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetC?_1 Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=NetC?_1 Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC1_1
+Added Member To Class: ClassName=KidsOutreach Member=Component C1 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C2 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C3 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C4 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C5 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C6 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C7 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C8 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C9 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C10 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C11 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C12 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C13 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C14 0.1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C15 1u
+Added Member To Class: ClassName=KidsOutreach Member=Component C16 0.1u
+Added Room: Name=KidsOutreach

@@ -1,0 +1,20 @@
+Added Component: Designator=S5(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S6(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S7(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S8(PTS645)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S9(PTS645)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetS5_2 Pin=S5-2
+Added Pin To Net: NetName=NetS6_2 Pin=S6-2
+Added Pin To Net: NetName=NetS7_2 Pin=S7-2
+Added Pin To Net: NetName=NetS8_2 Pin=S8-2
+Added Pin To Net: NetName=NetS9_2 Pin=S9-2
+Added Member To Class: ClassName=KidsOutreach Member=Component S5 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component S6 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component S7 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component S8 PTS645
+Added Member To Class: ClassName=KidsOutreach Member=Component S9 PTS645

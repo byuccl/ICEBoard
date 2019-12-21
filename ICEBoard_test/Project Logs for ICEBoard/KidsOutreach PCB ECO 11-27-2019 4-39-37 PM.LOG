@@ -1,0 +1,4 @@
+Added Component: Designator=U2(TC1602A-01T)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Member To Class: ClassName=KidsOutreach Member=Component U2 =value

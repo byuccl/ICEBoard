@@ -1,0 +1,5 @@
+Added Component: Designator=B1(TP124005)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Member To Class: ClassName=KidsOutreach Member=Component B1 Buzzer

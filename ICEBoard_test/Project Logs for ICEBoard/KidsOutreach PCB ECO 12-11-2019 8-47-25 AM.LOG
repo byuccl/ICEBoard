@@ -1,0 +1,139 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C7-1
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C9-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=IR1-1
+Removed Pin From Net: NetName=NetIR1_3 Pin=U1-1
+Removed Member From Class: ClassName=KidsOutreach Member=C9
+Removed Member From Class: ClassName=KidsOutreach Member=C10
+Removed Member From Class: ClassName=KidsOutreach Member=C11
+Removed Member From Class: ClassName=KidsOutreach Member=C12
+Removed Member From Class: ClassName=KidsOutreach Member=C13
+Removed Member From Class: ClassName=KidsOutreach Member=C14
+Removed Member From Class: ClassName=KidsOutreach Member=C15
+Removed Member From Class: ClassName=KidsOutreach Member=C16
+Change Component Footprint: Designator=IR1 Old Footprint=TSOP17 New Footprint=TSOP382
+Change Component Comment : Designator=IR1 Old Comment=TSOP17 New Comment=TSOP382
+Change Component Designator: OldDesignator=C2 NewDesignator=C1
+Change Component Designator: OldDesignator=C4 NewDesignator=C2
+Change Component Designator: OldDesignator=C6 NewDesignator=C3
+Change Component Designator: OldDesignator=C8 NewDesignator=C4
+Change Component Designator: OldDesignator=C10 NewDesignator=C5
+Change Component Designator: OldDesignator=C12 NewDesignator=C6
+Change Component Designator: OldDesignator=C14 NewDesignator=C7
+Change Component Designator: OldDesignator=C16 NewDesignator=C8
+Added Component: Designator=R2(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R6(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=IR1-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=NetC1_1 Pin=S1-3
+Added Pin To Net: NetName=NetC1_1 Pin=S1-3
+Added Pin To Net: NetName=NetC1_1 Pin=S1-3
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=NetC1_1 Pin=S2-3
+Added Pin To Net: NetName=NetC1_1 Pin=S2-3
+Added Pin To Net: NetName=NetC1_1 Pin=S2-3
+Added Pin To Net: NetName=GND Pin=S3-1
+Added Pin To Net: NetName=NetC1_1 Pin=S3-3
+Added Pin To Net: NetName=NetC1_1 Pin=S3-3
+Added Pin To Net: NetName=NetC1_1 Pin=S3-3
+Added Pin To Net: NetName=GND Pin=S4-1
+Added Pin To Net: NetName=NetC1_1 Pin=S4-3
+Added Pin To Net: NetName=NetC1_1 Pin=S4-3
+Added Pin To Net: NetName=NetC1_1 Pin=S4-3
+Added Pin To Net: NetName=NetC1_1 Pin=S5-3
+Added Pin To Net: NetName=NetC1_1 Pin=S6-3
+Added Pin To Net: NetName=NetC1_1 Pin=S7-3
+Added Pin To Net: NetName=NetC1_1 Pin=S8-3
+Added Pin To Net: NetName=NetC1_1 Pin=S9-3
+Added Pin To Net: NetName=NetIR1_3 Pin=U1-17
+Added Pin To Net: NetName=NetIR1_1 Pin=IR1-1
+Added Pin To Net: NetName=NetIR1_1 Pin=U1-1
+Added Net: Name=NetIR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U1-7
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=S1-2
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=U1-8
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=S2-2
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=U1-9
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=S3-2
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=U1-10
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=S4-2
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=S5-2
+Added Pin To Net: NetName=NetR6_2 Pin=U1-12
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=S6-2
+Added Pin To Net: NetName=NetR7_2 Pin=U1-13
+Added Net: Name=NetR7_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=S7-2
+Added Pin To Net: NetName=NetR8_2 Pin=U1-14
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=S8-2
+Added Pin To Net: NetName=NetR9_2 Pin=U1-15
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=S9-2
+Added Pin To Net: NetName=NetR10_2 Pin=U1-16
+Added Net: Name=NetR10_2
+Added Member To Class: ClassName=KidsOutreach Member=Component R2 100
+Added Member To Class: ClassName=KidsOutreach Member=Component R3 100
+Added Member To Class: ClassName=KidsOutreach Member=Component R4 100
+Added Member To Class: ClassName=KidsOutreach Member=Component R5 100
+Added Member To Class: ClassName=KidsOutreach Member=Component R6 10k
+Added Member To Class: ClassName=KidsOutreach Member=Component R7 10k
+Added Member To Class: ClassName=KidsOutreach Member=Component R8 10k
+Added Member To Class: ClassName=KidsOutreach Member=Component R9 10k
+Added Member To Class: ClassName=KidsOutreach Member=Component R10 10k
+Added Room: Name=KidsOutreach
