@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=S1-2
+Removed Pin From Net: NetName=NetR3_2 Pin=S2-2
+Removed Pin From Net: NetName=NetC1_1 Pin=S5-3
+Removed Pin From Net: NetName=NetC1_1 Pin=S6-3
+Removed Pin From Net: NetName=NetC1_1 Pin=S7-3
+Removed Pin From Net: NetName=NetC1_1 Pin=S8-3
+Removed Pin From Net: NetName=NetC1_1 Pin=S9-3
+Removed Pin From Net: NetName=NetR2_1 Pin=U1-7
+Removed Pin From Net: NetName=NetR3_1 Pin=U1-8
+Change Component Comment : Designator=R1 Old Comment=10k New Comment=1k
+Added Pin To Net: NetName=NetR2_1 Pin=S1-2
+Added Pin To Net: NetName=NetR3_1 Pin=S2-2
+Added Pin To Net: NetName=NetC1_1 Pin=S5-4
+Added Pin To Net: NetName=NetC1_1 Pin=S6-4
+Added Pin To Net: NetName=NetC1_1 Pin=S7-4
+Added Pin To Net: NetName=NetC1_1 Pin=S8-4
+Added Pin To Net: NetName=NetC1_1 Pin=S9-4
+Added Pin To Net: NetName=NetR2_2 Pin=U1-7
+Added Pin To Net: NetName=NetR3_2 Pin=U1-8
+Change Class Name : Old Net Name=KidsOutreach New Net Name=ICEBoard
+Added Member To Class: ClassName=ICEBoard Member=Component R4 100
+Added Member To Class: ClassName=ICEBoard Member=Component R5 100
