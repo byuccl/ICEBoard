@@ -65,3 +65,11 @@
 - [Website](https://www.digikey.com/products/en?keywords=2104-TP124005-2CT-ND)
 - [Datasheet](./TP124005-2_drawing)
 - Notes: 
+
+### Potentiometer
+
+- Purpose:
+- Description: Trimmer 10k Ohm 0.1W J Lead Top, surface mount
+- [Website](https://www.digikey.com/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ECT-ND/612911)
+- [Datasheet](./tc33_datasheet)
+- Notes: The -2 part has a rotational stop and the -1 part has continous rotation.  The footprints are identical.
