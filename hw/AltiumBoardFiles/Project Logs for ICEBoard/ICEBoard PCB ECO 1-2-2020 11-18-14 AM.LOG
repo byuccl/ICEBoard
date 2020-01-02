@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=R1-1
+Change Component Footprint: Designator=R1 Old Footprint=Resistor1608 New Footprint=TC33X
+Change Component Comment : Designator=R1 Old Comment=1k New Comment=10k
+Added Pin To Net: NetName=NetC1_1 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-3
