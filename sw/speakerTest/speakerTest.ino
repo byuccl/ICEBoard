@@ -1,5 +1,3 @@
-#define LED_COUNT 1
-#define LED_PIN 3
 #define BUZZER_PIN 9
 
 void setup()
@@ -12,7 +10,7 @@ void loop()
 {
     if (digitalRead(10))
     {
-        analogWrite(BUZZER_PIN, 200);
+        analogWrite(BUZZER_PIN, 128);
     }
     else
     {

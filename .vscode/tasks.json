@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Arduino: Set main sketch",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                ".vscode/set_main_sketch.py",
+                "${workspaceRoot}",
+                "${relativeFile}" // the current opened file relative to workspaceFolder
+            ],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
