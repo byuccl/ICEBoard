@@ -1,9 +1,17 @@
-#include <Adafruit_NeoPixel.h>
 #define LED_COUNT 1
 #define LED_PIN 3
 #define BUZZER_PIN 9
 
-Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+#define S1_PIN 4
+#define S2_PIN 5
+#define S3_PIN 6
+#define S4_PIN 7
+
+#define BU_PIN 11
+#define BL_PIN 1
+#define BC_PIN 10
+#define BD_PIN 12
+#define BR_PIN 13
 
 void setup()
 {
@@ -47,6 +55,4 @@ void loop()
   //  + " S3:" + S3 + " S4:" + S4;
   Serial.println(switches);
   delay(500);
-
-  strip.setPixelColor(0, 100, 0, 0);
 }
