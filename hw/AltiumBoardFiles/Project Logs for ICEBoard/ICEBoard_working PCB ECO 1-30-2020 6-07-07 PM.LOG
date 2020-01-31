@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+9 Pin=H1-1
+Added Component: Designator=S10(MHSS1104)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+9 Pin=S10-3
+Added Pin To Net: NetName=NetH1_1 Pin=H1-1
+Added Pin To Net: NetName=NetH1_1 Pin=S10-1
+Added Net: Name=NetH1_1
+Added Member To Class: ClassName=ICEBoard_working Member=Component S10 Slide Switch

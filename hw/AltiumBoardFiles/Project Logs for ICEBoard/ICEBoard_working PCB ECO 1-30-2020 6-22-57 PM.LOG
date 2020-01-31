@@ -1,0 +1,5 @@
+Added Component: Designator=R11(Resistor1608)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetD1_2 Pin=R11-2
+Added Member To Class: ClassName=ICEBoard_working Member=Component R11 470

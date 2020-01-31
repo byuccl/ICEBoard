@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=NetR6_2 Pin=U1-1
+Change Component Designator: OldDesignator=BCenter NewDesignator=S7
+Change Component Designator: OldDesignator=BDown NewDesignator=S8
+Change Component Designator: OldDesignator=BLeft NewDesignator=S5
+Change Component Designator: OldDesignator=BRight NewDesignator=S9
+Change Component Designator: OldDesignator=BUp NewDesignator=S6
+Change Component Designator: OldDesignator=Buzzer NewDesignator=B1
+Change Component Designator: OldDesignator=LED1 NewDesignator=D4
+Change Component Designator: OldDesignator=LED2 NewDesignator=D3
+Change Component Designator: OldDesignator=LED3 NewDesignator=D2
+Change Component Designator: OldDesignator=LED4 NewDesignator=D1
+Change Component Designator: OldDesignator=LED5 NewDesignator=D5
+Change Component Designator: OldDesignator=LED6 NewDesignator=D6
+Change Component Designator: OldDesignator=LED7 NewDesignator=D7
+Change Component Designator: OldDesignator=LED8 NewDesignator=D8
+Added Pin To Net: NetName=NetR6_2 Pin=U1-11
+Change Class Name : Old Net Name=ICEBoard_rev1.0 New Net Name=ICEBoard_working
+Added Member To Class: ClassName=ICEBoard_working Member=Component D6 NeoPixel
