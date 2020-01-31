@@ -1,3 +1,13 @@
+# Revision changes:
+## Rev 1.1
+- Fixed NeoPixel footprint (Rev 1.0 had the footprint oriented upside down)
+- Added 470 ohm resistor between Arduino and first NeoPixel
+- Replaced slide switches with larger slide switches
+- Added power switch
+- Renamed B1 as Buzzer, D1 - D8 as LED1 - LED8, S5 - S9 as BUp, BDown, etc.
+- Moved IR1 from pin D0 to pin D2 and S5 from pin D1 to pin D8 to avoid interference with the UART
+- Added screw holes for battery holder
+
 # Board Design notes on answered questions:
 - There is a software way to turn the NeoPixels on part way so we do not need resistors to dim them.
 - All of the traces are routed on the top of the board so the bottom layer can be a ground plane.
