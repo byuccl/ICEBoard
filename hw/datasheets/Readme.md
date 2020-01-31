@@ -29,10 +29,10 @@
 ### Slide Switch
 
 - Purpose: 
-- Description: Switch Slide DPDT 300mA 6V, surface mount
-- [Website](https://www.digikey.com/products/en?keywords=401-2002-1-ND)
-- [Datasheet](./JS202011SCQN_datasheet.pdf)
-- Notes: The DPDT switch was cheaper than all of the single pull slide switches I could find on Digi-Key.
+- Description: Switch Slide SPDT 300mA 6V, through hole
+- [Website](https://www.digikey.com/product-detail/en/apem-inc/MHSS1104/679-1848-ND/1795408)
+- [Datasheet](./MHSS1104_drawing.pdf)
+- Notes: Rev. 1.0 used the JS202011SCQN part instead.  Its [datasheet](./JS202011SCQN_datasheet.pdf) is still in this folder.
 
 ### Tactile Switch
 
