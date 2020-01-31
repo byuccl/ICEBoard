@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=S1 Old Footprint= New Footprint=MHSS1104
+Change Component Footprint: Designator=S2 Old Footprint= New Footprint=MHSS1104
+Change Component Footprint: Designator=S3 Old Footprint= New Footprint=MHSS1104
+Change Component Footprint: Designator=S4 Old Footprint= New Footprint=MHSS1104
+Change Component Comment : Designator=S1 Old Comment=Slide Switch New Comment==value
+Change Component Comment : Designator=S2 Old Comment=Slide Switch New Comment==value
+Change Component Comment : Designator=S3 Old Comment=Slide Switch New Comment==value
+Change Component Comment : Designator=S4 Old Comment=Slide Switch New Comment==value
+Change Component Comment : Designator=S10 Old Comment=Slide Switch New Comment==value
