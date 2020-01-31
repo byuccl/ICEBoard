@@ -1,6 +1,4 @@
-
-
-
+#include "puzzle_main.h"
 
 void puzzle1()
 {
@@ -12,10 +10,10 @@ void puzzle1()
     for (i = 0; i < LED_COUNT; i++)
         leds.setPixelColor(i, led[i]);
 
-    const uint32_t BLUE = pack_color(0, 0, BRIGHTNESS);
-    const uint32_t GREEN = pack_color(0, BRIGHTNESS, 0);
-    const uint32_t YELLOW = pack_color(BRIGHTNESS, BRIGHTNESS, 0);
-    const uint32_t PURPLE = pack_color(BRIGHTNESS, 0, BRIGHTNESS);
+    // const uint32_t BLUE = pack_color(0, 0, BRIGHTNESS);
+    // const uint32_t GREEN = pack_color(0, BRIGHTNESS, 0);
+    // const uint32_t YELLOW = pack_color(BRIGHTNESS, BRIGHTNESS, 0);
+    // const uint32_t PURPLE = pack_color(BRIGHTNESS, 0, BRIGHTNESS);
 
     while (!(led[0] == BLUE && led[1] == YELLOW && led[2] == GREEN && led[3] == PURPLE))
     {
@@ -49,8 +47,6 @@ void puzzle1()
             ;
         delay(100);
     }
-
-   
 
     puzzle_done();
 }

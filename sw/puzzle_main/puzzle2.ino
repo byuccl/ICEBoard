@@ -1,3 +1,5 @@
+#include "puzzle_main.h"
+
 void puzzle2()
 {
   lcd.clear();
@@ -7,8 +9,8 @@ void puzzle2()
   uint8_t A = 0;
   uint8_t B = 0;
 
-  const uint32_t BLUE = pack_color(0, 0, BRIGHTNESS);
-  const uint32_t GREEN = pack_color(0, BRIGHTNESS, 0);
+  // const uint32_t BLUE = pack_color(0, 0, BRIGHTNESS);
+  // const uint32_t GREEN = pack_color(0, BRIGHTNESS, 0);
 
   lcd.clear();
   lcd.print(A);
