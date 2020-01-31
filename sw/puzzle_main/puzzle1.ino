@@ -1,9 +1,6 @@
-#define BRIGHTNESS 10
 
-uint32_t pack_color(uint8_t red, uint8_t green, uint8_t blue)
-{
-    return ((uint32_t)red << 16) | ((uint32_t)green << 8) | ((uint32_t)blue);
-}
+
+
 
 void puzzle1()
 {
@@ -53,11 +50,7 @@ void puzzle1()
         delay(100);
     }
 
-    // Play noise
-    analogWrite(BUZZER_PIN, 128);
-    delay(500);
-    analogWrite(BUZZER_PIN, 0);
+   
 
-    lcd.clear();
-    lcd.print("You win");
+    puzzle_done();
 }
