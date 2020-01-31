@@ -32,7 +32,7 @@
 - Description: Switch Slide SPDT 300mA 6V, through hole
 - [Website](https://www.digikey.com/product-detail/en/apem-inc/MHSS1104/679-1848-ND/1795408)
 - [Datasheet](./MHSS1104_drawing.pdf)
-- Notes: Rev. 1.0 used the JS202011SCQN part instead.  Its datasheet is still in this folder ([Datasheet](./JS202011SCQN_datasheet.pdf)).
+- Notes: Rev. 1.0 used the JS202011SCQN part instead.  Its [datasheet](./JS202011SCQN_datasheet.pdf) is still in this folder.
 
 ### Tactile Switch
 
