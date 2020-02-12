@@ -1,6 +1,4 @@
 
-#include "Serial"
-
 #include "puzzle_main.h"
 
 Adafruit_NeoPixel leds(LED_COUNT, NEOPIXEL_PIN, NEO_GRBW + NEO_KHZ800);
@@ -27,6 +25,7 @@ void setup()
     setup_io();
     lcd.begin(16, 2);
     leds.begin();
+    leds.clear();
 }
 
 void loop()

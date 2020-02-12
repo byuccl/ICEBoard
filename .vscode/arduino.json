@@ -2,5 +2,5 @@
     "board": "arduino:avr:nano",
     "configuration": "cpu=atmega168",
     "port": "COM3",
-    "sketch": "sw\\switchesAndButtonsTest\\switchesAndButtonsTest.ino"
+    "sketch": "sw/puzzle_main/puzzle_main.ino"
 }
