@@ -1,38 +1,11 @@
 #include <LiquidCrystal.h>
 #include <Adafruit_NeoPixel.h>
 
-#define NEOPIXEL_PIN 3
-#define LED_COUNT 8
-
-#define S1_PIN 4
-#define S2_PIN 5
-#define S3_PIN 6
-#define S4_PIN 7
-
-#define BU_PIN 11
-#define BL_PIN 1
-#define BC_PIN 10
-#define BD_PIN 12
-#define BR_PIN 13
-
-#define BUZZER_PIN 9
-
-LiquidCrystal lcd(A5, A4, A3, A2, A1, A0);
-Adafruit_NeoPixel strip(LED_COUNT, NEOPIXEL_PIN, NEO_GRBW + NEO_KHZ800);
+#include "iceBoard.h"
 
 void setup()
 {
-    pinMode(S1_PIN, INPUT);
-    pinMode(S2_PIN, INPUT);
-    pinMode(S3_PIN, INPUT);
-    pinMode(S4_PIN, INPUT);
-    pinMode(BU_PIN, INPUT);
-    pinMode(BL_PIN, INPUT);
-    pinMode(BC_PIN, INPUT);
-    pinMode(BD_PIN, INPUT);
-    pinMode(BR_PIN, INPUT);
-    lcd.begin(16, 2);
-    strip.begin();
+    iceboard_setup_io();
 }
 
 void loop()
@@ -68,7 +41,7 @@ void loop()
     lcd.print(buttons);
 
     // Buzzer
-    if (digitalRead(10))
+    if (digitalRead(BC_PIN))
     {
         analogWrite(BUZZER_PIN, 128);
     }
@@ -78,10 +51,13 @@ void loop()
     }
 
     // Neopixels
-    int brightness = digitalRead(BL_PIN) + digitalRead(BC_PIN) + digitalRead(BU_PIN) + digitalRead(BR_PIN) + digitalRead(BD_PIN);
+    int brightness = 1 + digitalRead(BL_PIN) + digitalRead(BC_PIN) + digitalRead(BU_PIN) + digitalRead(BR_PIN) + digitalRead(BD_PIN);
 
     // scale brightness to 0-255 range
-    brightness *= 51;
+    // (brightness = 0, no buttons pressed)
+    // (brightness = 6, all buttons pressed)
+    // (scale 1-6 to 255 range)
+    brightness *= 42;
 
     int red = brightness * digitalRead(S1_PIN);
     int green = brightness * digitalRead(S2_PIN);
@@ -91,9 +67,9 @@ void loop()
     int i;
     for (i = 0; i < LED_COUNT; i++)
     {
-        strip.setPixelColor(i, red, green, blue, white);
+        leds.setPixelColor(i, red, green, blue);
     }
-    strip.show();
+    leds.show();
 
     delay(100);
 }

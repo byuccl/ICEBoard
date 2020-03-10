@@ -1,31 +1,9 @@
 
-#include "puzzle_main.h"
-
-Adafruit_NeoPixel leds(LED_COUNT, NEOPIXEL_PIN, NEO_GRBW + NEO_KHZ800);
-LiquidCrystal lcd(A5, A4, A3, A2, A1, A0);
-
-void setup_io()
-{
-    pinMode(S1_PIN, INPUT);
-    pinMode(S2_PIN, INPUT);
-    pinMode(S3_PIN, INPUT);
-    pinMode(S4_PIN, INPUT);
-
-    pinMode(BU_PIN, INPUT);
-    pinMode(BL_PIN, INPUT);
-    pinMode(BC_PIN, INPUT);
-    pinMode(BD_PIN, INPUT);
-    pinMode(BR_PIN, INPUT);
-
-    Serial.begin(9600);
-}
+#include "iceBoard.h"
 
 void setup()
 {
-    setup_io();
-    lcd.begin(16, 2);
-    leds.begin();
-    leds.clear();
+    iceboard_setup_io();
 }
 
 void loop()
