@@ -1,4 +1,5 @@
 #include "puzzle_main.h"
+#include "iceBoard.h"
 
 void puzzle2()
 {
