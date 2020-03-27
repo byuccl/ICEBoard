@@ -39,6 +39,14 @@ void loop()
             lcd.setCursor(0, 1);
             lcd.print("Learning Loops 1");
             loops1();
+            break;
+        case 5:
+            lcd.print("Program #");
+            lcd.print(puzzle_idx);
+            lcd.setCursor(0, 1);
+            lcd.print("Learning Ifs 1");
+            ifStatement1();
+            break;
         }
     }
 }
