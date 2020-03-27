@@ -12,6 +12,8 @@ void ifStatement1()
             leds.setPixelColor(5, ORANGE);
             leds.setPixelColor(6, YELLOW);
             leds.show();
+            if (digitalRead(BR_PIN))
+                break;
         }
         else
         {
@@ -19,8 +21,6 @@ void ifStatement1()
             leds.setPixelColor(5, AQUA);
             leds.setPixelColor(6, GREEN);
             leds.show();
-            if (digitalRead(BR_PIN))
-                break;
         }
     }
     puzzle_done();
