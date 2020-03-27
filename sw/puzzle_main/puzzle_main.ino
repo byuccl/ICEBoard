@@ -5,6 +5,7 @@
 void setup()
 {
     iceboard_setup_io();
+    turn_off_leds();
 }
 
 void loop()
@@ -47,6 +48,13 @@ void loop()
             lcd.print("Learning Ifs 1");
             ifStatement1();
             break;
+        case 6:
+            lcd.print("Program #");
+            lcd.print(puzzle_idx);
+            lcd.setCursor(0, 1);
+            lcd.print("Puzzle 4");
+            puzzle4();
+            break;
         }
     }
 }
@@ -65,9 +73,19 @@ void puzzle_done()
     lcd.print("Press BCenter");
     while (!digitalRead(BC_PIN))
         ;
+    while (digitalRead(BC_PIN))
+        ;
+    turn_off_leds();
 }
 
 uint32_t pack_color(uint8_t red, uint8_t green, uint8_t blue)
 {
     return ((uint32_t)red << 16) | ((uint32_t)green << 8) | ((uint32_t)blue);
+}
+
+void turn_off_leds()
+{
+    for (int i = 0; i < 7; i++)
+        leds.setPixelColor(i, OFF);
+    leds.show();
 }
