@@ -15,13 +15,13 @@ void loop()
 
     int puzzle_idx = digitalRead(S1_PIN) * 8 + digitalRead(S2_PIN) * 4 + digitalRead(S3_PIN) * 2 + digitalRead(S4_PIN);
 
-    lcd.print("BCen. starts    ");
-    lcd.setCursor(13, 1);
+    lcd.print("BCen. starts #  ");
+    lcd.setCursor(14, 1);
     lcd.print(puzzle_idx);
 
     if (digitalRead(BC_PIN))
     {
-
+        lcd.clear();
         switch (puzzle_idx)
         {
         case 1:
@@ -33,6 +33,12 @@ void loop()
         case 3:
             puzzle3();
             break;
+        case 4:
+            lcd.print("Program #");
+            lcd.print(puzzle_idx);
+            lcd.setCursor(0, 1);
+            lcd.print("Learning Loops 1");
+            loops1();
         }
     }
 }
