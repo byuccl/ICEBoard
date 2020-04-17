@@ -19,9 +19,9 @@ void ifStatement1()
         {
             leds.setPixelColor(LED5, BLUE);
             leds.setPixelColor(LED6, AQUA);
+            leds.setPixelColor(LED7, GREEN);
+            leds.show();
         }
-        leds.setPixelColor(LED7, GREEN);
-        leds.show();
     }
     puzzle_done();
 }
