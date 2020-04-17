@@ -8,20 +8,20 @@ void ifStatement1()
         if (digitalRead(BL_PIN))
         {
 
-            leds.setPixelColor(4, RED);
-            leds.setPixelColor(5, ORANGE);
-            leds.setPixelColor(6, YELLOW);
+            leds.setPixelColor(LED5, RED);
+            leds.setPixelColor(LED6, ORANGE);
+            leds.setPixelColor(LED7, YELLOW);
             leds.show();
             if (digitalRead(BR_PIN))
                 break;
         }
         else
         {
-            leds.setPixelColor(4, BLUE);
-            leds.setPixelColor(5, AQUA);
-            leds.setPixelColor(6, GREEN);
-            leds.show();
+            leds.setPixelColor(LED5, BLUE);
+            leds.setPixelColor(LED6, AQUA);
         }
+        leds.setPixelColor(LED7, GREEN);
+        leds.show();
     }
     puzzle_done();
 }
