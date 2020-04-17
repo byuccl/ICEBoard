@@ -44,6 +44,15 @@ extern LiquidCrystal lcd;
 #define WHITE (RED | GREEN | BLUE)
 #define ORANGE (RED | ((GREEN) / 2))
 
+#define LED1 3
+#define LED2 2
+#define LED3 1
+#define LED4 0
+#define LED5 4
+#define LED6 5
+#define LED7 6
+#define LED8 7
+
 Adafruit_NeoPixel leds(LED_COUNT, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 LiquidCrystal lcd(LCD_RS_PIN, LCD_E_PIN, LCD_DB4_PIN, LCD_DB5_PIN, LCD_DB6_PIN, LCD_DB7_PIN);
 
