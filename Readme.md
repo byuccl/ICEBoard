@@ -1,5 +1,7 @@
 # ICE Board
 
+[https://github.com/byuccl/ICEBoard/raw/master/docs/ice_board.jpg]
+
 This repository is for the "Introductory Coding Experience" (ICE) board. The purpose of this board is to provide a simple way for elementry aged students to interact with a simple embedded system by solving simple puzzles or playing simple games using a remote control and the ICE board. The board is based on the Arduino platform.
 
 ## Participants
