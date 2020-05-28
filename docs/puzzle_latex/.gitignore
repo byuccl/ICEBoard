@@ -1,0 +1,7 @@
+*.log
+*.aux
+*_latexmk
+*.fls
+*.synctex.gz
+/puzzles.pdf
+*_temp.tex

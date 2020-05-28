@@ -1,0 +1,52 @@
+\documentclass[]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{fmtcount}
+\usepackage{xcolor}
+\usepackage{lmodern}
+
+\newcommand{\puzzle}[3]{%
+    \noindent
+    \rule{\textwidth}{2pt}   
+    \begin{center} 
+        { \large Program \##1: #2  \\ \vspace{0.05in}
+        Set switches to: \padzeroes[4]\binarynum{#1} \\ \vspace{0.05in}
+        (\textit{#3}) }
+    \end{center}   
+    \rule{\textwidth}{2pt}   %
+}
+
+\newcommand{\incindent}{\addtolength\parindent{20pt}}
+\newcommand{\decindent}{\addtolength\parindent{-20pt}}
+
+\newcommand{\gap}{\vspace{0.1in}}
+
+
+\newcommand{\while}[1]{{\color{blue}\textbf{while: }}#1 \{ \incindent \par}
+\newcommand{\whileend}{\decindent \par\}}
+
+\newcommand{\wait}[1]{\textbf{wait} #1 seconds \par}
+
+\newcommand{\assign}[2]{ #1 $\leftarrow$ #2 \par}
+
+\newcommand{\lcd}{{\color{purple}\textbf{LCD screen}}}
+\newcommand{\printtolcd}[1]{Print `#1' to \lcd}
+
+\newcommand{\bdown}{{\color{purple}\textbf{BDown }}}
+
+\newcommand{\led}[1]{{\color{purple}\textbf{led#1}}}
+
+
+\newcommand{\pressed}{is pressed}
+\newcommand{\notpressed}{is not pressed}
+
+\newcommand{\programend}{\gap \gap Play beep sound \\ \printtolcd{You win} }
+\begin{document}
+
+\ttfamily
+\setlength{\parindent}{0pt}
+
+\input{learning_loops_1.tex}
+
+
+\end{document}
