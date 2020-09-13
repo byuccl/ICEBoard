@@ -55,6 +55,13 @@ void loop()
             lcd.print("Learning Loops 2");
             loops2();
             break;
+        case 7:
+            lcd.print("Program #");
+            lcd.print(puzzle_idx);
+            lcd.setCursor(0, 1);
+            lcd.print("Learning Loops 3");
+            loops3();
+            break;
         }
     }
 }
